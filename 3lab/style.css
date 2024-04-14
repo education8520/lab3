@@ -1,0 +1,34 @@
+.cotainer__strip {
+    background-color: firebrick;
+    color: white;
+    border-radius: 5px;
+    margin: 10px 0;
+    text-align: center;
+    width: 100px;
+    height: 30px;
+    line-height: 30px;
+}
+
+.cotainer:hover > .cotainer__strip {
+    width: 100%;
+}
+
+.cotainer__strip--ease {
+    transition: width 1s ease;
+}
+
+.cotainer__strip--ease-in { 
+    transition: width 1s ease-in;
+}
+
+.cotainer__strip--ease-out {
+    transition: width 1s ease-out;
+}
+
+.cotainer__strip--ease-in-out {
+    transition: width 1s ease-in-out;
+}
+
+.cotainer__strip--linear {
+    transition: width 1s linear;
+}
